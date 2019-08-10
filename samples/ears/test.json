@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 1,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 2,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 3,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 4,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 5,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 6,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 7,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 8,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 9,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 10,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 11,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 12,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 13,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 14,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 15,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 16,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 17,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 18,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 19,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 20,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 21,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 22,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 23,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 24,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 25,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 26,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 27,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 28,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 29,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 30,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 31,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 32,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 33,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 34,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 35,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 36,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 37,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 38,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 39,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 40,
+    "count": 2,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 41,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 42,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 43,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 44,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 45,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 46,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 47,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 48,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 49,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 50,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 51,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 52,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 53,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 54,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 55,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 56,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 57,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 58,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 59,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 60,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 61,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 62,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 63,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 64,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 65,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 66,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 67,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 68,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 69,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 70,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 71,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 72,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 73,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 74,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 75,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 76,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 77,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 78,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 79,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 80,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 81,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 82,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 83,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 84,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 85,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 86,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 87,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 88,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 89,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 90,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 91,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 92,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 93,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 94,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 95,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 96,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 97,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 98,
+    "count": 2,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 99,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 100,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 101,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 102,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 103,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 104,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 105,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 106,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 107,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 108,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 109,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 110,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 111,
+    "count": 2,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 112,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 113,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 114,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 115,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 116,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 117,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 118,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 119,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 120,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 121,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 122,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 123,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 124,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 125,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 126,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 127,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 128,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 129,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 130,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 131,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 132,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 133,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 134,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 135,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 136,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 137,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 138,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 139,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 140,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 141,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 142,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 143,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 144,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 145,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 146,
+    "count": 2,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 147,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 148,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 149,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 150,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 151,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 152,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 153,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 154,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 155,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 156,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 157,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 158,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 159,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 160,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 161,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 162,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 163,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 164,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 165,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 166,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 167,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 168,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 169,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 170,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 171,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 172,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 173,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 174,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 175,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 176,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 177,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 178,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 179,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 180,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 181,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 182,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 183,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 184,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 185,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 186,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 187,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 188,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 189,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 190,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 191,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 192,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 193,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 194,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 195,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 196,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 197,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 198,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 199,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 200,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 201,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 202,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 203,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 204,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 205,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 206,
+    "count": 2,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 207,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 208,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 209,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 210,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 211,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 212,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 213,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 214,
+    "count": 2,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 215,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 216,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 217,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 218,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 219,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 1
+  },
+  {
+    "id": 220,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 221,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 222,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 223,
+    "count": 2,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 224,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 225,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 226,
+    "count": 2,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 227,
+    "count": 1,
+    "gender": "female",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 228,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 229,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 230,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 231,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 232,
+    "count": 2,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 233,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 234,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 0
+  },
+  {
+    "id": 235,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 236,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 237,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 238,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 239,
+    "count": 2,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 240,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 241,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 2
+  },
+  {
+    "id": 242,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 243,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 0
+  },
+  {
+    "id": 244,
+    "count": 1,
+    "gender": "female",
+    "side": "both",
+    "occlusion": 2
+  },
+  {
+    "id": 245,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 246,
+    "count": 1,
+    "gender": "male",
+    "side": "both",
+    "occlusion": 1
+  },
+  {
+    "id": 247,
+    "count": 1,
+    "gender": "male",
+    "side": "right",
+    "occlusion": 0
+  },
+  {
+    "id": 248,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  },
+  {
+    "id": 249,
+    "count": 1,
+    "gender": "male",
+    "side": "left",
+    "occlusion": 2
+  },
+  {
+    "id": 250,
+    "count": 1,
+    "gender": "female",
+    "side": "left",
+    "occlusion": 1
+  }
+]
