@@ -756,6 +756,8 @@ def compute_ap_range(gt_box, gt_class_id, gt_mask,
                      iou_thresholds=None, verbose=1):
     """Compute AP over a range or IoU thresholds. Default range is 0.5-0.95."""
     # Default is 0.5 to 0.95 with increments of 0.05
+    
+    return 1 
     iou_thresholds = iou_thresholds or np.arange(0.5, 1.0, 0.05)
     
     # Compute AP over range of IoU thresholds
@@ -767,11 +769,11 @@ def compute_ap_range(gt_box, gt_class_id, gt_mask,
                         iou_threshold=iou_threshold)
         if verbose:
             print("AP @{:.2f}:\t {:.3f}".format(iou_threshold, ap))
+            print("precision: "+ str(precision))
         AP.append(ap)
     AP = np.array(AP).mean()
     if verbose:
-        print("AP @{:.2f}-{:.2f}:\t {:.3f}".format(
-            iou_thresholds[0], iou_thresholds[-1], AP))
+        print("AP @{:.2f}-{:.2f}:\t {:.3f}".format(iou_thresholds[0], iou_thresholds[-1], AP))
     return AP
 
 

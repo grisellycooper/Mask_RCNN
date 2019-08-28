@@ -15,7 +15,8 @@ from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
 # Path to trained weights file
-COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
+# COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
+COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_balloon.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -63,7 +64,8 @@ class EarDataset(utils.Dataset):
         
         # Assert folders train and test in dataset path
         assert subset in ["train", "test"]
-        mask_dir = os.path.join(dataset_dir, "trainannot")
+        annotation = subset + 'annot'
+        mask_dir = os.path.join(dataset_dir, annotation)
         dataset_dir = os.path.join(dataset_dir, subset)        
         
         images = []
@@ -81,7 +83,7 @@ class EarDataset(utils.Dataset):
                 image_id=os.path.splitext(filename)[0],
                 path=image_path,
                 width=width, 
-                height=height, 
+                height=height,
                 mask=mask_path #original mask
             )
         
@@ -150,8 +152,45 @@ def train(model):
                 learning_rate=config.LEARNING_RATE,
                 epochs=30,
                 layers='heads')
-    
-    
+
+def color_splash(image, mask):
+    """Apply color splash effect.
+    image: RGB image [height, width, 3]
+    mask: instance segmentation mask [height, width, instance count]
+
+    Returns result image.
+    """
+    # Make a grayscale copy of the image. The grayscale copy still
+    # has 3 RGB channels, though.
+    gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
+    # Copy color pixels from the original color image where mask is set
+    if mask.shape[-1] > 0:
+        # We're treating all instances as one, so collapse the mask into one layer
+        mask = (np.sum(mask, -1, keepdims=True) >= 1)
+        splash = np.where(mask, image, gray).astype(np.uint8)
+    else:
+        splash = gray.astype(np.uint8)
+    return splash
+
+def detect(model, image_path=None, video_path=None):
+    assert image_path or video_path
+
+    # Image or video?
+    if image_path:
+        # Run model detection and generate the color splash effect
+        print("Running on {}".format(args.image))
+        # Read image
+        image = skimage.io.imread(args.image)
+        # Detect objects
+        r = model.detect([image], verbose=1)[0]
+        # Color splash
+        splash = color_splash(image, r['masks'])
+        # Save output
+        file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
+        skimage.io.imsave(file_name, splash)
+    else:
+        print("Video option not supported")
+    print("Save to ", file_name)
 ############################################################
 #  Training
 ############################################################
@@ -178,6 +217,9 @@ if __name__ == '__main__':
     parser.add_argument('--image', required=False,
                         metavar="path or URL to image",
                         help='Image to evaluate')
+    parser.add_argument('--video', required=False,
+                        metavar="path or URL to video",
+                        help='Video to evaluate')
     args = parser.parse_args()
 
     # Validate arguments
@@ -205,11 +247,9 @@ if __name__ == '__main__':
 
     # Create model
     if args.command == "train":
-        model = modellib.MaskRCNN(mode="training", config=config,
-                                  model_dir=args.logs)
+        model = modellib.MaskRCNN(mode="training", config=config, model_dir=args.logs)
     else:
-        model = modellib.MaskRCNN(mode="inference", config=config,
-                                  model_dir=args.logs)
+        model = modellib.MaskRCNN(mode="inference", config=config, model_dir=args.logs)
 
     # Select weights file to load
     if args.weights.lower() == "coco":
@@ -240,8 +280,7 @@ if __name__ == '__main__':
     if args.command == "train":
         train(model)
     elif args.command == "evaluate":
-        detect_and_color_splash(model, image_path=args.image,
-                                video_path=args.video)
+        detect(model, image_path=args.image,video_path=args.video)
     else:
         print("'{}' is not recognized. "
               "Use 'train' or 'splash'".format(args.command))
